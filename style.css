@@ -9,8 +9,9 @@
   src: url("fonts/odstemplik/odstemplik.otf") format("opentype"), url("fonts/odstemplik/odstemplikBold.otf") format("opentype")
 }
 .top-img {
-  background-image: url("imgs/img01.jpg")
-  /*background-size: cover;*/
+  background-image: url("imgs/img01.jpg");
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .top-text {
@@ -35,6 +36,7 @@ nav .fas ,nav .far{
   background-image: url("imgs/fix-bg.jpg");
   padding: 200px 0;
   text-align: center;
+  background-attachment: fixed;
 }
 
 .night-sky h2 {

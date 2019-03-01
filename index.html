@@ -17,29 +17,29 @@
       </div>
     </div>
   </header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
       <a class="navbar-brand" href="#"><h3>Coporate Site</h3></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
           <li class="nav-item active">
             <a class="nav-link" href="#"><i class="fas fa-home"></i> Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><i class="far fa-lightbulb"></i> Feature</a>
+            <a class="nav-link" href="#feature"><i class="far fa-lightbulb"></i> Feature</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><i class="far fa-list-alt"></i> Service</a>
+            <a class="nav-link" href="#service"><i class="far fa-list-alt"></i> Service</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#"><i class="fas fa-info-circle"></i> information</a>
+            <a class="nav-link" href="#information"><i class="fas fa-info-circle"></i> information</a>
           </li>
         </ul>
       </div>
     </nav>
-    <div class="night-sky">
+    <div class="night-sky" id="feature">
       <h2>Feature</h2>
       <p>弊社は、株式会社〇〇です。<br>「スキルをつけて自由度を上げる」を企業理念にしてます。</p>
     </div>
@@ -82,34 +82,34 @@
       </a>
     </div>
 
-    <div class="service-list">
+    <div class="service-list" id="service">
       <h2>Service</h2>
       <div class="container">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-6 order-md-1">
             <img src="imgs/service1.jpg" alt="サービス１つ目" class="service-img">
           </div>
-          <div class="col-md-6 service-description">
+          <div class="col-md-6 service-description order-md-2">
             <h3>サービス１</h3>
             <hr color="white">
             <p>何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か</p>
             <a href="" class="btn btn-outline-light">詳細</a>
           </div>
 
-          <div class="col-md-6">
+          <div class="col-md-6 order-md-4">
             <img src="imgs/service1.jpg" alt="サービ２つ目" class="service-img">
           </div>
-          <div class="col-md-6 service-description">
+          <div class="col-md-6 service-description order-md-3">
             <h3>サービス２</h3>
             <hr color="white">
             <p>何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か</p>
             <a href="" class="btn btn-outline-light">詳細</a>
           </div>
 
-          <div class="col-md-6">
+          <div class="col-md-6 order-md-5">
             <img src="imgs/service1.jpg" alt="サービス３つ目" class="service-img">
           </div>
-          <div class="col-md-6 service-description">
+          <div class="col-md-6 service-description order-md-6">
             <h3>サービス３</h3>
             <hr color="white">
             <p>何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か何か</p>
@@ -119,7 +119,7 @@
       </div>
     </div>
 
-    <div class="night-sky">
+    <div class="night-sky" id="information">
       <h2>Infomation</h2>
         <div class="container">
           <div class="row">
@@ -157,9 +157,9 @@
           <div class="col-md-4">
             <ul>
               <li><a href="">Home</a></li>
-              <li><a href="">Feature</a></li>
-              <li><a href="">Service</a></li>
-              <li><a href="">Information</a></li>
+              <li><a href="#feature">Feature</a></li>
+              <li><a href="#service">Service</a></li>
+              <li><a href="#information">Information</a></li>
             </ul>
           </div>
           <div class="col-md-4">
