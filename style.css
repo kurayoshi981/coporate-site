@@ -22,3 +22,11 @@
   font-size: 100px;
   font-family: "myfont";
 }
+
+nav h3 {
+  font-family: "myfont";
+}
+
+nav .fas ,nav .far{
+  color: #888;
+}
