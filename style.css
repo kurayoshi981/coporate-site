@@ -66,3 +66,13 @@ nav .fas ,nav .far{
 .service-description {
   padding: 30px;
 }
+
+.info {
+  border: solid 2px white;
+  margin: 20px;
+  padding: 20px;
+}
+
+.icon {
+  font-size: 100px;
+}
