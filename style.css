@@ -46,3 +46,23 @@ nav .fas ,nav .far{
 .carousel-item img{
   height: 500px;
 }
+
+.service-list {
+  background-color: #333;
+}
+
+.service-list h2 {
+  text-align: center;
+  padding: 50px;
+  font-family: "myfont";
+  font-size: 80px;
+}
+
+
+.service-img{
+  width: 100%;
+}
+
+.service-description {
+  padding: 30px;
+}
