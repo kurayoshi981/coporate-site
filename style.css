@@ -30,3 +30,19 @@ nav h3 {
 nav .fas ,nav .far{
   color: #888;
 }
+
+.night-sky {
+  background-image: url("imgs/fix-bg.jpg");
+  padding: 200px 0;
+  text-align: center;
+}
+
+.night-sky h2 {
+  font-family: "myfont";
+  font-size: 80px;
+  margin-bottom: 40px;
+}
+
+.carousel-item img{
+  height: 500px;
+}
